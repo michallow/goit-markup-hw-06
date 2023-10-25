@@ -318,7 +318,7 @@
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
-            <p class="modal-paragraph"></p>
+            <p class="modal-paragraph">Leave your contacts and we will call you back</p>
             <form name="form-contact" autocomplete="on" novalidate>
                 <div class="modal-form">
                     <label class="form-label" for="user-name">Name</label>
@@ -351,6 +351,15 @@
                     <label class="form-label" for="user-comment">Comment</label>
                     <textarea class="form-textarea" id="user-comment" name="user-comment" placeholder="Text input"></textarea>
                 </div>
+                <div class="form-user-privacy">
+                    <input class="form-user-privacy-input visually-hidden" id="user-privacy" name="user-privacy" type="checkbox" value="true"/>
+                    <label class="form-user-privacy-label" for="user-privacy">I accept the terms and conditions of the<span class="form-label-span">
+                    <svg class="form-icon" width="10" height="8">
+                        <use href="./images/icons.svg#icon-checked"></use></svg>
+                    </span><a class="privacy-policy" href="index.html">Privacy Policy</a>
+                    </label>
+                </div>
+                <button class="send-btn">Send</button>
             </form>
         </div>
     </div>
