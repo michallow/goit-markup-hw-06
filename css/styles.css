@@ -867,7 +867,6 @@ body {
 
 .form-user-privacy {
   margin-bottom: 24px;
-  
 }
 
 .form-user-privacy-label {
@@ -876,7 +875,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-light-slate);
-  
 }
 
 .form-label-span {
@@ -891,6 +889,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .privacy-policy {
