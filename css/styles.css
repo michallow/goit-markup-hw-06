@@ -867,6 +867,7 @@ body {
 
 .form-user-privacy {
   margin-bottom: 24px;
+  
 }
 
 .form-user-privacy-label {
@@ -875,6 +876,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--color-light-slate);
+  
 }
 
 .form-label-span {
@@ -889,12 +891,6 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
-
-.form-label-span:checked + .form-user-privacy-label .form-icon-checkbox {
-  background-color: var(--color-ocean);
-  border: none;
-  fill: var(--color-cloud);
 }
 
 .privacy-policy {
@@ -921,4 +917,10 @@ body {
 
 .form-icon-checkbox-input {
   border: none;
+}
+
+.form-user-privacy-input:checked + .form-user-privacy-label > .form-label-span {
+  background-color: var(--color-ocean);
+  border: none;
+  fill: var(--color-cloud);
 }
