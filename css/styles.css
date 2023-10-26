@@ -209,6 +209,7 @@ body {
 .navigation-bar {
   border: 1px;
   padding: 24px 0;
+  display: inline-block;
 }
 
 .navigation-bar-container {
@@ -922,8 +923,14 @@ body {
   border: none;
 }
 
-.form-user-privacy-input:checked + .form-user-privacy-label > .form-label-span {
+/* .form-user-privacy-input:checked + .form-user-privacy-label > .form-label-span {
   background-color: var(--color-ocean);
   border: none;
   fill: var(--color-cloud);
+} */
+
+.form-user-privacy-input:checked + .form-user-privacy-label .form-label-span {
+  background-color: var(--color-ocean);
+  fill: var(--color-cloud);
+  border: none;
 }
