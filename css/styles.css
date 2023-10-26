@@ -208,8 +208,6 @@ body {
 
 .navigation-bar {
   border: 1px;
-  padding: 24px 0;
-  display: inline-block;
 }
 
 .navigation-bar-container {
@@ -217,6 +215,7 @@ body {
   margin: 0 auto;
   padding: 0 0px 0 15px;
   display: flex;
+  gap: 332px;
 }
 
 .container {
@@ -231,7 +230,7 @@ body {
 }
 
 .menu-elements {
-  display: flex;
+  display: inline-block;
   gap: 40px;
   list-style: none;
   font-weight: 500;
@@ -253,7 +252,7 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -4px;
+  bottom: -1px;
   width: 100%;
   height: 4px;
   background-color: var(--color-ocean);
@@ -285,7 +284,8 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 332px;
+  /* padding-left: 332px; */
+  padding: 24px 0 24px 0px;
 }
 
 .values-section {
