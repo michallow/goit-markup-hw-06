@@ -230,7 +230,7 @@ body {
 }
 
 .menu-elements {
-  display: inline-block;
+  display: flex;
   gap: 40px;
   list-style: none;
   font-weight: 500;
@@ -246,6 +246,7 @@ body {
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: var(--color-navy-blue);
+  display: inline-block;
 }
 
 .menu-link::after {
